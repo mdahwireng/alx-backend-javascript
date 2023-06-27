@@ -51,3 +51,20 @@ Given what you’ve read about ```var``` and hoisting, modify the variables insi
   return [task, task2];
 }
 ```
+
+3. [Block Scope](./2-arrow.js)
+Rewrite the following standard function to use ES6’s arrow syntax of the function add (it will be an anonymous function after)
+```export default function getSanFranciscoDescription() {
+  const year = 2017;
+  const fear = 'love';
+
+  return 'San Francisco is the home of JavaScript. In ${year}, they ${fear} ES6.';
+}
+```
+
+4. [Arrow functions](./3-default-parameter.js)
+Rewrite the following standard function to use ES6’s arrow syntax of the function ```divideBy```
+```export default function divideFunction(numerator, denominator = 1) {
+  return numerator / denominator;
+}
+```
