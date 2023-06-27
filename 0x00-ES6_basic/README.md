@@ -68,3 +68,10 @@ Rewrite the following standard function to use ES6’s arrow syntax of the funct
   return numerator / denominator;
 }
 ```
+
+5. [Rest parameter syntax for functions](./4-rest-parameter.js)
+Modify the following function to return the number of arguments passed to it using the ```rest``` parameter syntax
+```export default function returnHowManyArguments(...theArgs) {
+  return theArgs.length;
+}
+```
